@@ -5,6 +5,11 @@
 
 Get additional practice with React by creating a front end application that renders data from an image api.  This will require some knowledge on React
 
+## Preview
+Preview of initial and subsequent load times of all 3 services on a single html page
+
+![2019-08-01 App demo](imageCollection.gif)
+
 ## Getting Started
 
 ### Clone
