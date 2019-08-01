@@ -16,8 +16,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-react', '@babel/preset-env'],
-            plugins: ["@babel/plugin-proposal-class-properties"]
+            presets: ['@babel/preset-react', '@babel/preset-env']
           }
         }
       },
@@ -29,8 +28,5 @@ module.exports = {
   },
   node: {
     fs: 'empty'
-  },
-  resolve: {
-    extensions: ['.js', '.jsx']
   }
 };
