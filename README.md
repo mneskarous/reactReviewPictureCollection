@@ -41,40 +41,37 @@ Connect your react app to the browser
 Render all the components + validate that they are all connected properly
 
 #### STEP 3: 
-Pass mock pokemon data down to App as props + render said data
+Pass mock image data down to App as props + render said data in ImageDisplay and Collection
   * this will require you to set props to state, do not do this in the constructor
   * set props to your state once your component mounts
 
 #### STEP 4: 
-Design Search.js such that a user can input data and on submit, run a function that console.log's what the user has submitted so far
+Design ImageFetcher.js such that a user can click on a button, which runs a function that console.log's what the user has clicked on
 
 #### STEP 5: 
-Using axios + https://pokeapi.co/, complete the lib/getPokemon.js function
+Using axios + https://source.unsplash.com/, send a request that will return a 100x100 image of a dog
   * hint: google "npm axios" to find out the syntax for a GET request
 
-#### STEP 6: 
-Pass getPokemon function to App + configure the app so that when user submits, it will run getPokemon function instead of the console.log
-
-#### STEP 7: 
-As needed, update getPokemon.js so that pokemon data received from the API will render on the page in addition to any existing pokemon data
+#### STEP 6:
+As needed, update App.js so that image data received from the API will render on the page in addition to any existing image data
   * remove the mock data
 
 ### Advanced
 Note: if you're not comfortable with STEPS 1-7, redo STEPS 1-7 instead
 
-#### STEP 8: 
+#### STEP 7:
 Create a new feature
 
-#### STEP 9: 
-Add css, you may use this as reference https://www.pokemon.com/us/pokedex/
+#### STEP 8:
+Add css, have fun.
 
-#### STEP 10: 
-On mount, render the original 151 pokemon, in the correct order
+#### STEP 9:
+Only allow 5 images to be rendered inside of Collection.js
+
+#### STEP 10:
+Create feature to add new buttons
 
 #### STEP 11:
-PokemonListItem should only re-render if an applicable change has occurred.  They should NOT all re-render on every unrelated change
-
-#### STEP 12: 
 Refactor application to use Redux or Context API instead of passing props down manually
 
 ### Solutions
@@ -83,11 +80,5 @@ Once you are done with steps 1-7, solution code is available on branch solution1
   $ git checkout solution1
 ```
 
-I've included some additional solution code and techniques on branch solution2.  Probably don't look at this until you have the basics down and have completed some/all of the advanced content
-```
-  $ git checkout solution2
-```
-
 ### Acknowledgments
- * https://pokeapi.co/ for their amazing API
- * https://www.pokemon.com/us/
+ * https://source.unsplash.com/
