@@ -1,4 +1,4 @@
-# reactReviewWithPokemon
+# reactReviewPictureCollection
 
 [![Node version](https://img.shields.io/badge/node-v8.12.0-blue.svg)](http://nodejs.org/download/)
 [![NPM version](https://img.shields.io/badge/npm-6.4.1-blue.svg)](https://www.npmjs.com/get-npm/)
@@ -35,29 +35,30 @@ When you are ready to try again, repeat as necessary
 At each step, before moving on, answer the following question: What justifies my expectation that I completed the requirement?  If you cannot justify this, then it means you haven't tested it yet.
 
 #### STEP 1: 
-Connect your react app to the browser
+Connect your react app to the browser.  Instead of showing the hard-coded html tag, it should display App.js
 
 #### STEP 2: 
 Render all the components + validate that they are all connected properly
 
 #### STEP 3: 
 Pass mock image data down to App as props + render said data in ImageDisplay and Collection
-  * this will require you to set props to state, do not do this in the constructor
+  * this may require you to set props to state, do not do this in the constructor
   * set props to your state once your component mounts
 
 #### STEP 4: 
 Design ImageFetcher.js such that a user can click on a button, which runs a function that console.log's what the user has clicked on
 
-#### STEP 5: 
-Using axios + https://source.unsplash.com/, send a request that will return a 100x100 image of a dog
+#### STEP 5:
+In ImageFetcher.js, instead of console logging what the user clicked, refactor the code to use axios + https://source.unsplash.com/ and send a request that will return a url for a 100x100 image of a dog
   * hint: google "npm axios" to find out the syntax for a GET request
+  * hist: find out how to make a request to this website.  In the response from the site, you'll get the url in something like request.responseURL
 
 #### STEP 6:
 As needed, update App.js so that image data received from the API will render on the page in addition to any existing image data
   * remove the mock data
 
 ### Advanced
-Note: if you're not comfortable with STEPS 1-7, redo STEPS 1-7 instead
+Note: if you're not comfortable with STEPS 1-6, redo STEPS 1-6 instead
 
 #### STEP 7:
 Create a new feature
