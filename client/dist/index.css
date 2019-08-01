@@ -1,0 +1,30 @@
+#imageFetcher {
+  display: flex;
+}
+
+.collectionRow {
+  display: flex;
+  flex-direction: row;
+}
+
+#imageDisplay {
+  border: 1px solid black;
+}
+
+#mainApp {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#collection {
+  height: 400px;
+  overflow: scroll;
+}
+
+.container {
+  margin: 10px;
+}
