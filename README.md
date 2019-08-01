@@ -61,7 +61,7 @@ As needed, update App.js so that image data received from the API will render on
 Note: if you're not comfortable with STEPS 1-6, redo STEPS 1-6 instead
 
 #### STEP 7:
-Create a new feature
+Create a new feature.  Example: like/dislike counter for each image
 
 #### STEP 8:
 Add css, have fun.
