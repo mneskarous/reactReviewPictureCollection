@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ImageDisplay = (props) => {
-  let image = props.image;
   const convertImageSize = (imageUrl) => {
     let urlArr = imageUrl.split('');
     for (let i = 0; i < urlArr.length; i++) {
@@ -17,7 +16,7 @@ const ImageDisplay = (props) => {
 
   return (
     <div id="imageDisplay" className="container">
-      <img src={convertImageSize(image)} alt=""/>
+      <img src={convertImageSize(props.image)} alt=""/>
     </div>
   )
 };
