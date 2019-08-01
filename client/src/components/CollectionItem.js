@@ -2,7 +2,7 @@ import React from 'react';
 
 const CollectionItem = (props) => {
   return (
-    <div>
+    <div onClick={() => props.changeImage(props.image)}>
       <img src={props.image} alt=""/>
     </div>
   )
