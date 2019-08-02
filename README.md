@@ -51,7 +51,7 @@ Pass mock image data down to App as props + render said data in ImageDisplay and
   * set props to your state once your component mounts
 
 #### STEP 4:
-Pass mock options data dow to ImageFetcher and design ImageFetcher.js such that a user can click on a button, which runs a function that console.log's what the user has clicked on
+Pass mock options data down to ImageFetcher and design ImageFetcher.js such that a user can click on a button, which runs a function that console.log's what the user has clicked on
 
 #### STEP 5:
 In ImageFetcher.js, instead of console logging what the user clicked, refactor the code to use axios + https://source.unsplash.com/ and send a request that will return a url for a 100x100 image of a dog
